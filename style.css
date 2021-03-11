@@ -27,10 +27,16 @@
     color: white;
   }
 
-  h1 {
+  h1, h2 {
       text-align: center;
       font-family: georgia;
     }
+
+  .center {
+    text-align: center;
+    font-family: georgia;
+  }
+
 
   .column {
     float: left;
