@@ -2,6 +2,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    font-family: georgia;
   }
   
   /* Style the links inside the navigation bar */
@@ -22,15 +23,19 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #6495ED;
     color: white;
   }
 
-  h1 {text-align: center;}
+  h1 {
+      text-align: center;
+      font-family: georgia;
+    }
 
   .column {
     float: left;
     width: 50%;
+    font-family: georgia;
   }
   
   /* Clear floats after the columns */
