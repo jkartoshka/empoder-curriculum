@@ -27,14 +27,13 @@
     color: white;
   }
 
-  h1, h2 {
+  h1, h2, .center {
       text-align: center;
       font-family: georgia;
     }
 
-  .center {
-    text-align: center;
-    font-family: georgia;
+  .background {
+    background-color: rgb(221, 221, 221);
   }
 
 
