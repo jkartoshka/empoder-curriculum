@@ -18,3 +18,14 @@ function myFunction5() {
     document.getElementById("Q5").innerHTML = "Please fill out the following Google Form if you wish to donate items. Please scan our Venmo QR code to donate funds.";
 }
 
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "Harry Potter");
+    if (person == null || person == "") {
+      txt = "You are not signed up.";
+    } else {
+      txt = "Thank you " + person + "! You have successfully signed up!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+
