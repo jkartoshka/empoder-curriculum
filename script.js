@@ -22,19 +22,38 @@ function visitPage(){
     */
 }
 
-
-
-function myFunction3() {
-    document.getElementById("Q3").innerHTML = "Please meet next to the white canopy, set up on the grass directly behind the basketball courts.";
+function popUp() {
+    var r = alert("Please meet next to the white canopy, set up on the grass directly behind the basketball courts.");
 }
 
-function myFunction4() {
-    document.getElementById("Q4").innerHTML = "The girls soccer team of Rolling Hills Middle School will be hosting the day.";
+function init(){
+    imgObj = document.getElementById('animal');
+    imgObj.style.position= 'relative'; 
 }
 
-function myFunction5() {
-    document.getElementById("Q5").innerHTML = "Please fill out the following Google Form if you wish to donate items. Please scan our Venmo QR code to donate funds.";
+var id = null;
+function myMove() {
+  var elem = document.getElementById("animal");
+  var pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 1400) {
+      clearInterval(id);
+    } else {
+      pos++;
+      //elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
 }
 
+function myFunction2() {
+    document.getElementById("Q2").innerHTML = "Please bring personal protective equipment (PPE): face masks ect. We will supply latex gloves for trash pick up. We will also provide garbage bags. At lunch, we will provide a small snack too.";
+}
+
+
+
+window.onload =init;
 
 

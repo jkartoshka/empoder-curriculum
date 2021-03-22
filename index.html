@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width">
     <title>Park Cleanup</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'
+    > 
   </head>
   <body>
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <div class="topnav">
         <a class="active" href="index.html">Home</a>
@@ -53,24 +58,31 @@
     <div class="background">
         <br>
 
-        <h3 style="font-size: 25px;">How do I register?</h3>
+        <h3 style="font-size: 25px; line-height: 0;">Register: </h3>
         <button onclick="signUp()">Sign Up</button>
         <p id="message"></p>
+        <br>
         
-        <h3 style="font-size: 25px;">What to bring?</h3>
-        <button onclick="myFunction2()">Click Here</button>
+        <h3 style="font-size: 25px; line-height: 0;">What do I bring?</h3>
+        <button onclick="myFunction2()">Find Out</button>
         <p id="Q2"></p>
+        <br>
         
-        <h3 style="font-size: 25px;">Where to meet?</h3>
-        <button onclick="myFunction3()">Click Here</button>
-        <p id="Q3"></p>
+        <h3 style="font-size: 25px; line-height: 0;">Where are we meeting?</h3>
+        <button onclick="popUp()">Find Out</button>
+        <p></p><br>
 
-        <h3 style="font-size: 25px;">Who is hosting?</h3>
-        <button onclick="visitPage()">About Us</button>
+        <h3 style="font-size: 25px; line-height: 0;">Follow us on Facebook:</h3>
+        <button onclick="visitPage()">
+          <i class="fa fa-facebook-official"></i>
+          Empoder
+        </button>
+        <p></p><br>
 
-        <h3 style="font-size: 25px;">How to donate?</h3>
-        <button onclick="myFunction5()">Click Here</button>
-        <p id="Q5"></p>
+        <h3 style="font-size: 25px; line-height: 0;">Let's have a Good Day!</h3>
+        <button onclick="myMove()">Click Here</button>
+          <p></p><br>
+          <img id="animal" src="https://images.vexels.com/media/users/3/204175/isolated/preview/8a19636b0ba6fe895dcd257ec00d5dec-colored-fox-side-view-by-vexels.png" width=5%  />
         <br>
     </div>
 
