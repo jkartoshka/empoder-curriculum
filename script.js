@@ -1,3 +1,4 @@
+// pop up window with sign up sheet
 function signUp() {
     var txt;
     var person = prompt("Please enter your name:", "Harry Potter");
@@ -9,6 +10,17 @@ function signUp() {
     document.getElementById("message").innerHTML = txt;
 }
 
+// answer to What do we bring?
+function bring() {
+    document.getElementById("answer").innerHTML = "Please bring personal protective equipment (PPE): face masks ect. We will supply latex gloves for trash pick up. We will also provide garbage bags. At lunch, we will provide a small snack too.";
+}
+
+// answer to Where do we meet?
+function popUp() {
+    var r = alert("Please meet next to the white canopy, set up on the grass directly behind the basketball courts.");
+}
+
+// facebook link
 function visitPage(){
     window.location='https://www.facebook.com/empoderedu/';
 
@@ -22,10 +34,8 @@ function visitPage(){
     */
 }
 
-function popUp() {
-    var r = alert("Please meet next to the white canopy, set up on the grass directly behind the basketball courts.");
-}
 
+// animal moving
 function init(){
     imgObj = document.getElementById('animal');
     imgObj.style.position= 'relative'; 
@@ -47,12 +57,6 @@ function myMove() {
     }
   }
 }
-
-function myFunction2() {
-    document.getElementById("Q2").innerHTML = "Please bring personal protective equipment (PPE): face masks ect. We will supply latex gloves for trash pick up. We will also provide garbage bags. At lunch, we will provide a small snack too.";
-}
-
-
 
 window.onload =init;
 
