@@ -1,3 +1,22 @@
+h1, h2, .center {
+  text-align: center;
+  font-family: georgia;
+}
+
+button {
+  background-color: rgb(101, 171, 192);
+  border-radius: 8px;
+  color: white;
+  padding: 16px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  font-family: monospace;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -27,13 +46,11 @@
     color: white;
   }
 
-  h1, h2, .center {
-      text-align: center;
-      font-family: georgia;
-    }
+  
 
   .background {
     background-color: rgb(221, 221, 221);
+    font-family: georgia;
   }
 
   .column {
