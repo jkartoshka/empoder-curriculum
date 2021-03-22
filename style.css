@@ -3,6 +3,11 @@ h1, h2, .center {
   font-family: georgia;
 }
 
+h3 {
+  font-size: 25px; 
+  line-height: 0;
+}
+
 button {
   background-color: rgb(101, 171, 192);
   border-radius: 8px;
