@@ -84,7 +84,7 @@ button:hover {
 
 .box1{
   width: 30%;
-  height: 50px;
+  /* height: 100%; */
   background: rgb(221, 221, 221); 
   display: table-cell;
   vertical-align: top;
@@ -93,7 +93,7 @@ button:hover {
 
 .box2{
   width: 10%;
-  height: 50px;
+  /* height: 100%; */
   background: white;
   display: table-cell;
   vertical-align: top;
@@ -101,7 +101,7 @@ button:hover {
 
 .box3{
   width: 65%;
-  height: 50px;
+  /* height: 50px; */
   background: rgb(127, 239, 241);
   display: table-cell;
   vertical-align: top;
