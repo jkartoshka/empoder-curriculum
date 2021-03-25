@@ -39,6 +39,9 @@ function visitPage(){
 function init(){
     imgObj = document.getElementById('animal');
     imgObj.style.position= 'relative'; 
+    
+    //Get the button for top scrolling:
+    mybutton = document.getElementById("myBtn");
 }
 
 var id = null;
@@ -60,3 +63,24 @@ function myMove() {
 
 window.onload =init;
 
+
+// When the user scrolls down 20px from the top of the document, show the button
+document.onscroll = function() {
+  console.log("here")
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    console.log("i work");
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
