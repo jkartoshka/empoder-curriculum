@@ -12,7 +12,7 @@ function signUp() {
 
 // answer to What do we bring?
 function bring() {
-    document.getElementById("answer").innerHTML = "Please bring personal protective equipment (PPE): face masks ect. We will supply latex gloves for trash pick up. We will also provide garbage bags. At lunch, we will provide a small snack too.";
+    document.getElementById("answer").innerHTML = "<ul><li>Please bring personal protective equipment (PPE): face masks etc.</li> <li>We will supply latex gloves for trash pick up.</li> <li>We will also provide garbage bags.</li> <li>At lunch, we will provide a small snack too.</li></ul>";
 }
 
 // answer to Where do we meet?
@@ -73,7 +73,6 @@ document.onscroll = function() {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
-    console.log("i work");
   } else {
     mybutton.style.display = "none";
   }
