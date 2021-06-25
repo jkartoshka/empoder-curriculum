@@ -51,7 +51,7 @@ function myMove() {
   clearInterval(id);
   id = setInterval(frame, 5);
   function frame() {
-    if (pos == window.screen.width - 95) {
+    if (pos == window.screen.width - 110) {
       clearInterval(id);
     } else {
       pos++;
