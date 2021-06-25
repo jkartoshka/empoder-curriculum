@@ -5,4 +5,4 @@ This is a two page website consisting of a home page and an about me page.
 
 Technologies used: HTML, CSS, JavaScript
 
-To view website, visit: https://empoder-curriculum-2.jkartoshka.repl.co/index.html
+To view website, visit: https://empoder-curriculum-2.jkartoshka.repl.co
