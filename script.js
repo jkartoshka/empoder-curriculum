@@ -17,7 +17,7 @@ function bring() {
 
 // answer to Where do we meet?
 function popUp() {
-  var r = alert("Please meet next to the white canopy, set up on the grass directly behind the basketball courts.");
+  alert("Please meet next to the white canopy, set up on the grass directly behind the basketball courts.");
 }
 
 // facebook link
