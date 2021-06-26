@@ -5,28 +5,32 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Park Cleanup</title>
+
+	<!--changes favicon (icon in the tab)-->
 	<link rel="icon" href="images/favicon.png">
+
+	<!--link to css file-->
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
-	<script src="https://kit.fontawesome.com/70772a0888.js" crossorigin="anonymous">
-	</script>
+
+	<!--script for fontawesome icons-->
+	<script src="https://kit.fontawesome.com/70772a0888.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<script src="script.js">
+	<!--script for javascript-->
+	<script src="script.js"></script>
 
-	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
-
-	</script>
-
+  <!--navigation bar-->
 	<div class="topnav">
 		<a class="active" href="index.html">Home</a>
 		<a href="about-julia.html">About Me</a>
 	</div>
 
 	<h1>Houge Park Cleanup Day</h1>
-	<button onclick="topFunction()" id="myBtn" title="Go to top">
+
+  <!--scroll up button (extra feature)-->
+	<button onclick="topFunction()" id="myBtn">
+    <!--arrow icon to be displayed on button-->
     <i class="fa fa-arrow-up"></i>
   </button>
 
@@ -34,109 +38,138 @@
 	<div class="row">
 		<div class="column">
 			<br>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Childrens_Game_Park_01621.jpg"width=95%>
-        </div>
-        <div class="column">
-            <p>
-              <b>Houge Park</b> is a fantastic park located in the Cambrian Area of San Jose. There's something there for everyone, 
-              whether it's benches to sit and enjoy the area, tables for playing chess and checkers, or opportunities to play 
-              tennis. With large, grassy spaces and a walking & jogging trail, people who want to just get out and walk will 
-              have plenty of room for that. If you've never been to Houge Park, it's a worthwhile destination and a pleasant 
-              surprise in the midst of a residential neighborhood.
-            </p>
 
-            <p>
-              We are organizing a park cleanup for Houge Park. The areas that we will be focusing on are the <mark>playground areas,
-              the picnic sites, the exercise course, the basketball court, and the two tennis courts.</mark> We will provide trashbags,
-              rubber gloves, and trash pickers. Come on out with us and have fun helping out your community!
-            </p>
-
-            <p><i>
-              When: Saturday, April 10, 2021 ALL DAY
-            </i></p>
-
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.646751111075!2d-121.94452998469723!3d37.25608787985731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e345205a9de93%3A0xd9bd396ba20f22d7!2sHouge%20Park!5e0!3m2!1sen!2sus!4v1615498814464!5m2!1sen!2sus" width="100%" height="313"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+      <!--image of park-->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Childrens_Game_Park_01621.jpg" width=95%>
     </div>
 
-    <br>
+    <div class="column">
+      <!--paragraph about what Houge Park is-->
+      <p>
+        <!--Houge Park is bolded-->
+        <b>Houge Park</b> is a fantastic park located in the Cambrian Area of San Jose. There's something there for everyone, whether it's benches to sit and enjoy the area, tables for playing chess and checkers, or opportunities to play tennis. With large, grassy spaces and a walking & jogging trail, people who want to just get out and walk will have plenty of room for that. If you've never been to Houge Park, it's a worthwhile destination and a pleasant surprise in the midst of a residential neighborhood.
+      </p>
 
-    <div class="container">
-      <div class="box1">
-        <div class="background">
-            <br>
+      <!--paragraph about park cleanup, places of focus highlighted-->
+      <p>
+        We are organizing a park cleanup for Houge Park. The areas that we will be focusing on are the <mark>playground areas,
+        the picnic sites, the exercise course, the basketball court, and the two tennis courts.</mark> We will provide trashbags,
+        rubber gloves, and trash pickers. Come on out with us and have fun helping out your community!
+      </p>
 
-            <h3>Register: </h3>
-            <button onclick="signUp()">Sign Up</button>
-            <p id="message"></p>
-            <br>
-            
-            <h3>What do I bring?</h3>
-            <button onclick="bring()">Find Out</button>
-            <p id="answer"></p>
-            <br>
-            
-            <h3>Where are we meeting?</h3>
-            <button onclick="popUp()">Find Out</button>
-            <p></p><br>
-
-            <h3>Follow us on Facebook:</h3>
-            <button onclick="visitPage()">
-              <i class="fa fa-facebook-official"></i>
-              Empoder
-            </button>
-            <p></p><br>          
-        </div>
-      </div>
-
-      <div class="box2">
-        <p><br></p>
-      </div>
-
-      <div class="box3" >
-        <div style="background-image: url('https://cdn.wallpapersafari.com/13/34/0JM9WT.jpg'); 
-                    height: 650px;width:900px;
-                    background-size: cover;"> 
-
-          <h1 style="padding-top: 300px;">Thank You!</h1>
-
-        </div>
-      </div>
-
+      <!--when the clean up is in italics-->
+      <p>
+        <i>When: Saturday, April 10, 2021 ALL DAY</i>
+      </p>
       
+      <!--map of park location-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.646751111075!2d-121.94452998469723!3d37.25608787985731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e345205a9de93%3A0xd9bd396ba20f22d7!2sHouge%20Park!5e0!3m2!1sen!2sus!4v1615498814464!5m2!1sen!2sus" width="100%" height="313"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <!--gray box container for buttons-->
+    <div class="box1">
+      <div class="background">
+        <br>
+
+        <h3>Register: </h3>
+        <!--triggers signUp function in JS when button clicked-->
+        <!--prompt box appears asking for name-->
+        <button onclick="signUp()">Sign Up</button>
+        <!--signUp() sets the message to some an HTML message, and displays it on the page-->
+        <p id="message"></p>
+        <br>
+            
+        <h3>What do I bring?</h3>
+        <!--triggers bring function in JS when button clicked-->
+        <button onclick="bring()">Find Out</button>
+        <!--signUp() sets the answer to some an HTML message, and displays it on the page-->
+        <p id="answer"></p>
+        <br>
+            
+        <h3>Where are we meeting?</h3>
+        <!--triggers popUp function in JS when button clicked-->
+        <!--alert box with message appears-->
+        <button onclick="popUp()">Find Out</button>
+        <p></p><br>
+
+        <h3>Follow us on Facebook:</h3>
+        <!--triggers visitPage function in JS when button clicked-->
+        <button onclick="visitPage()">
+          <!--icon for facebook logo-->
+          <i class="fa fa-facebook-official"></i>
+          Empoder
+        </button>
+        <p></p><br>          
+      </div>
+    </div>
+
+    <!--white box in the middle-->
+    <div class="box2">
+      <p><br></p>
+    </div>
+
+    <!--blue box container for image-->
+    <div class="box3" >
+      <!--background image-->
+      <div style="background-image: url('https://cdn.wallpapersafari.com/13/34/0JM9WT.jpg'); 
+      height: 650px;width:900px;
+      background-size: cover;"> 
+
+        <!--Thank you in center of image-->
+        <h1 style="padding-top: 250px;">Thank You!</h1>
+
+      </div>
+    </div>    
+  </div>
+
+  <br>
+
+  <!--blue backround for animation-->
+  <div class="background2">
+    <br>
+
+    <h3>Let's have a Good Day!</h3>
+
+    <!--button when clicked triggers function for animation-->
+    <button onclick="myMove()">Click Here</button>
+    <p></p><br>
+    
+    <!--image of fox-->
+    <img id="animal" src="https://images.vexels.com/media/users/3/204175/isolated/preview/8a19636b0ba6fe895dcd257ec00d5dec-colored-fox-side-view-by-vexels.png" width=5%/>
 
     <br>
-    <div class="background2">
-      <br>
-      <h3>Let's have a Good Day!</h3>
-      <button onclick="myMove()">Click Here</button>
-      <p></p><br>
-      <img id="animal" src="https://images.vexels.com/media/users/3/204175/isolated/preview/8a19636b0ba6fe895dcd257ec00d5dec-colored-fox-side-view-by-vexels.png" width=5%  />
-      <br>
-    </div>
+  </div>
 
-    <div class="row">
-      <div class="column">  
-        <br><br>
+  <div class="row">
+    <div class="column">  
+      <br><br>
 
-        <div class="container1">
-          <img src="images/environment.jpg" alt="Avatar" class="image">
+      <!--image overlay, on hover text appears-->
+      <div class="container1">
+        <img src="images/environment.jpg" class="image">
           <div class="overlay">
-            <div class="text">Take Care of Our Planet
+            <div class="text">
+              Take Care of Our Planet
+              <!--icon for globe-->
               <i class="fa fa-globe-americas"></i>
             </div>
           </div>
-        </div>
-        <br>
       </div>
-      <div class="column">
-        <h4>In case you can't make it, here is a guide to how to clean your park!</h4>
-        <iframe width="75%" height="315" src="https://www.youtube.com/embed/vjGDGHSwsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+
+      <br>
     </div>
-    
+
+    <div class="column">
+      <h4>In case you can't make it, here is a guide to how to clean your park!</h4>
+      
+      <!--youtube video iframe-->
+      <iframe width="75%" height="315" src="https://www.youtube.com/embed/vjGDGHSwsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 
   </body>
 </html>

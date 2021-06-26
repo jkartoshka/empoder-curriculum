@@ -23,17 +23,7 @@ function popUp() {
 // facebook link
 function visitPage() {
   window.location = 'https://www.facebook.com/empoderedu/';
-
-  /* 
-  How to do this in JQuery:
-  <button id="some_id">Visit Page Now</button>
-
-  $('#some_id').click(function() {
-      window.location='http://www.example.com';
-  });
-  */
 }
-
 
 // animal moving
 function init() {
