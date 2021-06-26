@@ -1,7 +1,7 @@
 // pop up window with sign up sheet
 function signUp() {
   var txt;
-  var person = prompt("Please enter your name:", "Harry Potter");
+  var person = prompt("Please enter your name:", "Guest");
   if (person == null || person == "") {
     txt = "You are not signed up.";
   } else {
@@ -25,38 +25,36 @@ function visitPage() {
   window.location = 'https://www.facebook.com/empoderedu/';
 }
 
-// animal moving
-function init() {
-  imgObj = document.getElementById('animal');
-  imgObj.style.position = 'relative';
-
-  //Get the button for top scrolling:
-  mybutton = document.getElementById("myBtn");
-}
-
-var id = null;
+//animation function
 function myMove() {
-  var elem = document.getElementById("animal");
-  var pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 5);
+  var fox = document.getElementById("animal");
+  fox.style.position = 'relative';
+  var position = 0;
+  setInterval(frame, 5);
+
   function frame() {
-    if (pos == window.screen.width - 110) {
+    if (position == window.screen.width - 110) {
       clearInterval(id);
     } else {
-      pos++;
-      //elem.style.top = pos + 'px';
-      elem.style.left = pos + 'px';
+      position++;
+      fox.style.left = position + 'px';
     }
   }
 }
 
-window.onload = init;
 
+
+
+//functionality for button to go back to the top of the page ------------------------------------------------------------
+function init() {
+  //Get the button for top scrolling:
+  mybutton = document.getElementById("myBtn");
+}
+
+window.onload = init;
 
 // When the user scrolls down 20px from the top of the document, show the button
 document.onscroll = function () {
-  console.log("here")
   scrollFunction();
 };
 
